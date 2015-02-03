@@ -1,3 +1,29 @@
 html, body {
   margin: 20px;
 }
+
+/*doc
+---
+title: Foo
+name: Foo
+category: Bar
+---
+
+```html_example
+<div class="foo">
+  <h1>Foo Title</h1>
+  <p>Bar</p>
+  <p class="blue">Baz</p>
+</div>
+```
+*/
+.foo {
+  background-color: red;
+  padding: 10px;
+}
+.foo h1 {
+  font-size: 10px;
+}
+.foo .blue {
+  background-color: blue;
+}
