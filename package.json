@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-pizzazz",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Broccoli-Pizzazz integration for Ember-CLI",
   "directories": {
     "doc": "doc",
@@ -41,6 +41,6 @@
     "configPath": "tests/dummy/config"
   },
   "dependencies": {
-    "broccoli-pizzazz": "git://github.com/vericred/broccoli-pizzazz"
+    "broccoli-pizzazz": ">= 0.0.2"
   }
 }
